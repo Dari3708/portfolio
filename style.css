@@ -1,0 +1,144 @@
+html {
+  height: 100%;
+  width: 100%;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: #dce0dd;
+}
+
+a {
+  color: #346f5a;
+  
+}
+
+ul {
+  /* display: ;
+  justify-content: center; */
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #cfc9bf;  
+  width: 25%;  
+  height: 100%; /* Full height */
+  position: fixed; /* Make it stick, even on scroll */
+  overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+li a:hover {
+  background-color: darkgrey;
+  text-underline-position: under;
+}
+
+li a {
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+
+
+
+a{
+  font-family: raleway;
+}
+
+
+
+
+
+.active{
+  background-color: darkgrey;
+  
+}
+
+p{
+   font-family: raleway;
+}
+
+h1{
+   font-family: raleway;
+}
+
+h2{
+   font-family: raleway;
+}
+
+.circle {
+  height: 24px;
+  width: 24px;
+  border-radius: 24px;
+  background-color: #b7b1a8;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 99999999; /* so that it stays on top of all other elements */
+}
+
+
+.home-sci{
+  position: absolute;
+  bottom: 99999999999999999999999999999999chx;
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-sci a {
+  position: relative;
+  width: 40px;
+  justify-content: center;
+  align-items: center;
+display: inline-flex;
+  height: 40px;
+  background: transparent;
+  border: 2px solid #000000;
+  border-radius: 50%;
+  font-size: 20px;
+  color:#000000 ;
+  text-decoration: none;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.home-sci a:hover{
+  color: #dce0dd;
+  transition: 0.5s;
+}
+
+
+
+.home-sci a::before{
+  content: '';
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #000000;
+  z-index: -1;
+  transition: .5s;
+  
+}
+
+.home-sci a:hover::before{
+  width: 100%;
+}
+
+img {
+    width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  border: dashed;
+}
+
+p1 {
+  text-align: center;
+}
